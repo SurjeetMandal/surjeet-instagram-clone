@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+#main{
+    width: 100vw;
+    display: flex;
+}
+
+
+/*SiderBar Css Starts Here*/
+#sideBar{
+    width: 20%;
+    padding-top: 40px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-right: 1px solid #DBDBDB;
+    height: 85%;
+}
+.sideBar-link ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+}
+.sideBar-link ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sideBar-link ul li a img{
+    width: 24px;
+    height: 24px;
+}
+
+
+/*Scrollable Css Starts Here*/
+#scrollable{
+    display: flex;
+    width: 80vw;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    overflow-y: scroll;
+}
+
+
+/*Scrollable story-post Css starts here*/
+#story-post{
+    width: 70%;
+}
+.story-content{
+    display: flex;
+    padding: 45px;
+    gap: 10px;
+    justify-content: center;
+    width: 60%;
+}
+.story img{
+    width: 56px;
+    height: 56px;
+}
+.story p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.12px;
+}
+.post-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    gap: 20px;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+.post{
+    width: 470px;
+    height: 829px;
+    border-bottom: 2px solid #DBDBDB;
+}
+.header-profile-img{
+    width: 32px;
+    height: 32px;
+}.post-left{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bold{
+    font-size: 14px;
+    font-weight: 600;
+}
+.light{
+    color: #8E8E8E;
+    font-weight: 400;
+    font-size: 14px;
+}
+.post-main-image img{
+    height: 585px;
+    width: 468px;
+    border-radius: 5px;
+}
+.like-comment-share-section{
+    display: flex;
+    padding: 7px 0px;
+    justify-content: space-between;
+}
+.like-comment-share-section img{
+    width: 24px;
+    height: 24px;
+}
+.left{
+    display: flex;
+    gap: 20px;
+}
+.post-para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+.normal{
+    font-weight: 400;
+    font-size: 14px;
+}
+.bold-sm{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*Footer Css starts here*/
+#footer{
+    width: 30%;
+    margin-top: 65px;
+}
+.blue{
+    color:#0095F6;
+    font-size: 11px;
+    font-weight: 600;
+}
+.footer-header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-header{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-header-right img{
+    width: 56px;
+    height: 56px;
+}
+.footer-header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+.suggestion{
+    color:#8E8E8E;
+    font-size: 14px;
+    font-weight: 600;
+}
+.seeall{
+    font-size: 11px;
+    font-weight: 600;
+}
+.footer-suggestion{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-suggestion-content{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+.footer-suggestion-right img{
+    width: 32px;
+    height: 32px;
+}
+.footer-suggestion-right{
+    display: flex;
+    align-items: center;
+}
+.footer-header-txt{
+    padding-left: 10px;
+}
+.normal-light{
+    color: #8E8E8E;
+    font-size: 11px;
+    font-weight: 400;
+}
+.footer-bottom-para{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+    gap: 20px;
+}
+.footer-bottom-para p{
+    font-size: 12px;
+    font-weight: 400;
+    color:#C7C7C7;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 1130px){
+    #footer{
+        display: none;
+    }
+    .story-content{
+        width: 100%;
+    }
+}
+
+
